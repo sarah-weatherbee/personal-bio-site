@@ -1,5 +1,30 @@
 body {
     background-color: burlywood;
 }
+.fullpage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fullPage {
+    max-width: 90%;
+    width: 500px;
+    background-color: lightgray;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px; 
+}
 
- 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    
+}

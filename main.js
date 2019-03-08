@@ -47,8 +47,8 @@ const createProjectCards = () => {
             domString += `<div class="card-container">`;
             domString += `<div class="projects">`;
             domString += `<div class="project-title">${projects[i].title}</div>`;
-            domString += `<div>Screenshot <img src=${projects[i].screenshot} alt="screenshot"></div>`;
-            domString += `<div>Description ${projects[i].description}</div>`;
+            domString += `<div><img src=${projects[i].screenshot} alt="screenshot"></div>`;
+            domString += `<div><strong>Description</strong> ${projects[i].description}</div>`;
             domString += `<div>TechnologiesUsed ${projects[i].technologiesUsed}</div>`;
             domString += `<div>Available ${projects[i].available}</div>`;
             domString += `<div>url <a href=${projects[i].url}>Here</a></div>`;
