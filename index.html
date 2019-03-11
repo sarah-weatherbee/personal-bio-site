@@ -3,16 +3,21 @@
 
 <head>
     <title>personal-bio-site</title>
-    <link rel="stylesheet" href="./main.css">
+
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
 </head>
 
 <body>
     <!--Navigation-->
+    <header>
     <nav>
-        <!-- TODO: Insert some sort of H1-H6 with your name here -->
+    
         <h2>Sarah Weatherbee</h2>
         <ul id="navLinks">
             <li><a id="navToBio">Bio</a></li>
@@ -20,24 +25,38 @@
             <li><a id="navToProjects">Projects</a></li>
         </ul>
     </nav>
+    </header>
     <!-- End Navigation -->
 
     <!--Primary View-->
     <div class="fullpage-container">
         <div class="fullPage" id="bioPage">
-            <p>TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development?</p>
+            <h4>About Me</h4>
+            <p>Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development?</p>
 
         </div>
         <div class="fullPage" id="technologiesPage">
-            <p>TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later).</p>
+            <!--TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later).-->
+           <h4>Technologies</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
         </div>
         <div class="fullPage" id="projectsPage"></div>
     </div>
     <!-- End Primary View -->
     <!-- Footer -->
     <footer class="page-footer">
-        <p> TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. --></p>
+               <!--TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+            <ul id="footer-links">
+                <li><a id="email"></a>Email</li>
+                <li><a id="LinkedIn">LinkedIn</a></li>
+                <li><a id="gitHub">GitHub</a></li>
+            </ul>
     </footer>
+
     <!--End Footer-->
 
     <script src="./main.js"></script>
