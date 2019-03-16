@@ -90,7 +90,7 @@ ul{
     }
 #projectsPage {
     display: flex;
-    background-color: purple;
+    /*background-color: purple;*/
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
