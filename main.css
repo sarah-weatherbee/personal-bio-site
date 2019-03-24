@@ -73,6 +73,10 @@ ul{
     #navLinks li:hover{
         background-color: limegreen;
     }
+h2 #home:hover{
+    
+    background-color: limegreen;
+}
 
 #footer-links li{
     display:inline;
