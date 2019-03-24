@@ -65,8 +65,46 @@ const createProjectCards = () => {
     printToDom('projectsPage', domString)
 };
 
+ const homePage = () => {
+    document.getElementById("bioPage").style.display = "block";
+    document.getElementById("technologiesPage").style.display = "block";
+    document.getElementById("projectsPage").style.display = "block";   
+
+} 
+
+const onlyBio = () => {
+    document.getElementById("bioPage").scrollTo();
+    document.getElementById("bioPage").style.display = "block";
+    document.getElementById("technologiesPage").style.display = "none";
+    document.getElementById("projectsPage").style.display = "none";
+}
+
+const onlyTechno = () => {
+    document.getElementById("technologiesPage").scrollTo();
+    document.getElementById("technologiesPage").style.display = "block";
+    document.getElementById("bioPage").style.display = "none";
+    document.getElementById("projectsPage").style.display = "none";
+
+}
+
+const onlyProjects = () => {
+    document.getElementById("projectsPage").scrollTo();
+    document.getElementById("projectsPage").style.display = "block";
+    document.getElementById("technologiesPage").style.display = "none";
+    document.getElementById("bioPage").style.display = "none";
+
+}
+
+const navEvents = () => {
+    document.getElementById("home").addEventListener("click", homePage);
+    document.getElementById("navToBio").addEventListener("click", onlyBio);
+    document.getElementById("navToTechnologies").addEventListener("click", onlyTechno);
+    document.getElementById("navToProjects").addEventListener("click", onlyProjects);
+};
+
 const init = () => {
     createProjectCards();
+    navEvents();
 };
 
 init();
