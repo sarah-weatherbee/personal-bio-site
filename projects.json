@@ -1,0 +1,26 @@
+{
+  "project1": {
+    "Name": "Barbarian Streisand beer site",
+    "imageUrl": "",
+    "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
+    "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
+    "Technologies": "HTML, CSS, JavaScript",
+    "Author(s)": "Sarah Weatherbee, Matt Gill, Andrew Tiller, Lwam Tekie"
+  },
+  "project2": {
+    "Name": "Barbarian Streisand beer site",
+    "imageUrl": "./project-shots/barb-site-shot",
+    "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
+    "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
+    "Technologies": "HTML, CSS, JavaScript",
+    "Author(s)": "Sarah Weatherbee, Matt Gill, Andrew Tiller, Lwam Tekie"
+  },
+  "project3": {
+    "Name": "Barbarian Streisand beer site",
+    "imageUrl": "./project-shots/barb-site-shot",
+    "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
+    "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
+    "Technologies": "HTML, CSS, JavaScript",
+    "Author(s)": "Sarah Weatherbee, Matt Gill, Andrew Tiller, Lwam Tekie"
+  }
+}
