@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>personal-bio-site</title>
+    <title>Sarah Weatherbee</title>
 
 
     <meta charset="UTF-8">
@@ -18,34 +18,76 @@
         <!--Navigation-->
         <header>
         <nav>
-
-            <h2><a id="home">Sarah Weatherbee</a></h2>
+            <h1><a id="name">Sarah Weatherbee</a></h1>
             <ul id="navLinks">
-                <li><a id="navToBio">Bio</a></li>
-                <li><a id="navToTechnologies">Technologies</a></li>
-                <li><a id="navToProjects">Projects</a></li>
+                <li><a id="navToBio">about</a></li>
+                <li><a id="navToProjects">development</a></li>
+                <li><a id="navToClips">clips</a></li>
             </ul>
         </nav>
         </header>
         <!-- End Navigation -->
 
         <!--Primary View-->
-        <div class="fullpage-container">
-            <div class="fullPage" id="bioPage">
-                <h4>About Me</h4>
-                <p>Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development?</p>
+        <div class="container">
+            <div class="hero">
+                <h2 class="lead">A journalist meets software development</h2>
+            </div>
+        </div>
 
+            <div class="fullPage" id="bioPage">
+                <h4><strong>About Me</strong></h4>
+                <p class="about-me-text">Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development?</p>
             </div>
-            <div class="fullPage" id="technologiesPage">
-                <!--TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later).-->
-            <h4>Technologies</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
+
+            <div class="fullPage" id="technologies">
+                <h4><strong>Technologies</strong></h4>
+                <div class="technology-container tech-icons" style="position: relative; height: 200px;">
+                    <div class="new-grid-item" icon-card style="position: absolute; left: 0px; top: 0px;">
+                        <img class="techs" src="https://nss-day-cohort-27.github.io/Class-Website-gh-pages/images/techLogos/git.png" alt="Git Logo">
+                        <p>Git</p>
+                    </div>
+                    <div class="new-grid-item" icon-card style="position: absolute; left: 120px; top: 0px;">
+                        <img class="techs" src="https://nss-day-cohort-27.github.io/Class-Website-gh-pages/images/techLogos/github.png" alt="GitHub Logo">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="new-grid-item" icon-card style="position: absolute; left: 230px; top: 0px;">
+                        <img class="techs" src="https://nss-day-cohort-27.github.io/Class-Website-gh-pages/images/techLogos/vscode.png" alt="VS Code Logo">
+                        <p class="vs-text">VS Code</p>
+                    </div>
+                    <div class="new-grid-item" icon-card style="position: absolute; left: 350px; top: 0px;">
+                        <img class="techs" src="https://nss-day-cohort-27.github.io/Class-Website-gh-pages/images/techLogos/html.png" alt="HTML5 Logo">
+                         <p class="html-text">HTML</p>
+                    </div>
+                    <div class="new-grid-item" icon-card style="position: absolute; left: 470px; top: 0px;">
+                        <img class="techs" src="https://nss-day-cohort-27.github.io/Class-Website-gh-pages/images/techLogos/css.png" alt="CSS Logo">
+                        <p class="css-text">CSS</p>
+                    </div>
+                    <div class="new-grid-item" icon-card style="position: absolute; left: 590px; top: 0px;">
+                        <img class="techs" src="https://nss-day-cohort-27.github.io/Class-Website-gh-pages/images/techLogos/js.png" alt="JS Logo">
+                        <p class="js-text">JavaScript</p>
+                    </div>
+                    <div class="new-grid-item" icon-card style="position: absolute; left: 710px; top: 0px;">
+                        <img class="techs" src="https://nss-day-cohort-27.github.io/Class-Website-gh-pages/images/techLogos/bootstrap.png" alt="Bootstrap Logo">
+                        <p class="bootstrap-text">Bootstrap</p>
+                    </div>
+                    <div class="new-grid-item" icon-card style="position: absolute; left: 830px; top: 0px;">
+                        <img class="techs" src="https://nss-day-cohort-27.github.io/Class-Website-gh-pages/images/techLogos/react.png" alt="React Logo">
+                        <p class="react-text">React</p>
+                    </div>
+                </div>
             </div>
+            <div class="fullPage" id="development-text"><h4><strong>Development</strong></h4></div>
             <div class="fullPage" id="projectsPage"></div>
+            <div class="fullPage" id="clipsPage">
+                    <!--TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later).-->
+                <h4><strong>Journalism</strong></h4>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+            </div>
         </div>
         <!-- End Primary View -->
         <!-- Footer -->
@@ -59,6 +101,8 @@
         </footer>
 
         <!--End Footer-->
+
+
 
 </body>
 
