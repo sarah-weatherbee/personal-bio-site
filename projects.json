@@ -1,26 +1,31 @@
 {
-  "project1": {
-    "Name": "Barbarian Streisand beer site",
-    "imageUrl": "",
+  "projects": [
+    {
+    "Name": "Barbarian Streisand Brewery",
+    "imageUrl": "https://barbarian-streisand.firebaseapp.com/barb-photos/jumbotron-photo.jpg",
     "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
     "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
+    "description": "Basically the intersection of Barbra Streisand and beer. A group project to make a beer brewery website. I worked on the 'Book a Tour' page, wrote all copy and assisted with styling",
     "Technologies": "HTML, CSS, JavaScript",
     "Author(s)": "Sarah Weatherbee, Matt Gill, Andrew Tiller, Lwam Tekie"
   },
-  "project2": {
+   {
+    "Name": "Birthday RSVP Tracker",
+    "imageUrl": "https://www.nowplayingnashville.com/wp-content/uploads/sites/www.nowplayingnashville.com/images/2016/02/htc.png",
+    "githubUrl": "https://github.com/sarah-weatherbee/birthday",
+    "deployUrl": "https://birfday-aa236.firebaseapp.com/",
+    "description": "Keeps track of friends invited to a birthday party. Uses Create, Read, Update, and Delete (CRUD) functionality.",
+    "Technologies": "HTML, CSS, JavaScript, Bootstrap, Webpack",
+    "Author(s)": "Sarah Weatherbee"
+  },
+  {
     "Name": "Barbarian Streisand beer site",
     "imageUrl": "./project-shots/barb-site-shot",
     "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
     "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
-    "Technologies": "HTML, CSS, JavaScript",
-    "Author(s)": "Sarah Weatherbee, Matt Gill, Andrew Tiller, Lwam Tekie"
-  },
-  "project3": {
-    "Name": "Barbarian Streisand beer site",
-    "imageUrl": "./project-shots/barb-site-shot",
-    "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
-    "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
+    "description": "Basically the intersection of Barbra Streisand and beer. A group project to make a beer brewery website.",
     "Technologies": "HTML, CSS, JavaScript",
     "Author(s)": "Sarah Weatherbee, Matt Gill, Andrew Tiller, Lwam Tekie"
   }
+  ]
 }

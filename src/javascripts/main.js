@@ -1,11 +1,7 @@
 import '../styles/main.scss';
+import 'bootstrap';
 import projectsData from './helpers/data/projectsData';
-import barbSiteShot from '../../assets/barb-site-shot.jpg';
 
-
-// const printToDom = (divId, textToPrint) => {
-//   const selectedDiv = document.getElementById(divId);
-//   selectedDiv.innerHTML += textToPrint;
 
 const printToDom = (divId, textToPrint) => {
   const selectedDiv = document.getElementById(divId);
@@ -15,61 +11,66 @@ const printToDom = (divId, textToPrint) => {
 const createProjectCards = (projects) => {
   let domString = '';
   for (let i = 0; i < projects.length; i += 1) {
-    domString += '<div class="projects">';
-    domString += `<div class="project-title"><strong>${projects[i].Name}</strong></div>`;
-    domString += `<div><img src=${projects[i].imageUrl} alt="screenshot"></div>`;
-    domString += '<div class="project-info-text">';
+    // domString += '<div class="projects">';
+    domString += '<div class="col-12 col-md-6 col-lg-4">';
+    domString += '<div class="card d col-flex">';
+    domString += `<div class="card-header"><strong>${projects[i].Name}</strong></div>`;
+    domString += `<div class="image"><img src=${projects[i].imageUrl} alt="project picture"></div>`;
+    domString += '<div class="card-body">';
     domString += `<div><strong>Description:</strong> ${projects[i].description}</div>`;
-    domString += `<div>Technologies: ${projects[i].Technologies}</div>`;
-    domString += `<div>Available ${projects[i].available}</div>`;
-    domString += `<div>githubUrl: <a href=${projects[i].githubUrl}>Here</a></div>`;
-    domString += `<div>githubUrl: <a href=${projects[i].githubUrl}>Here</a></div>`;
+    domString += '<ul class="list-group list-group-flush">';
+    domString += `<li class="list-group-item">${projects[i].Technologies}</li>`;
+    domString += `<li class="list-group-item">Site: <a href=${projects[i].deployUrl}>Here</a></li>`;
+    domString += `<li class="list-group-item">GitHub: <a href=${projects[i].githubUrl}>Here</a></li>`;
+    domString += '</ul>';
     domString += '</div>';
     domString += '</div>';
+    domString += '</div>';
+    // domString += '</div>';
   }
 
   printToDom('projectsPage', domString);
 };
 
 const homePage = () => {
-  document.getElementById('bioPage').style.display = 'block';
-  document.getElementById('technologiesPage').style.display = 'block';
-  document.getElementById('projectsPage').style.display = 'block';
+  document.getElementById('bioPage').style.display = 'flex';
+  document.getElementById('clipsPage').style.display = 'flex';
+  document.getElementById('projectsPage').style.display = 'flex';
 };
 
 const onlyBio = () => {
-  document.getElementById('bioPage').scrollTo();
+  document.getElementById('bioPage').scrollIntoView();
   document.getElementById('bioPage').style.display = 'block';
-  document.getElementById('technologiesPage').style.display = 'none';
+  document.getElementById('clipsPage').style.display = 'none';
   document.getElementById('projectsPage').style.display = 'none';
 };
 
-const onlyTechno = () => {
-  document.getElementById('technologiesPage').scrollTo();
-  document.getElementById('technologiesPage').style.display = 'block';
+const onlyClips = () => {
+  document.getElementById('clipsPage').scrollIntoView();
+  document.getElementById('clipsPage').style.display = 'block';
   document.getElementById('bioPage').style.display = 'none';
   document.getElementById('projectsPage').style.display = 'none';
 };
 
 const onlyProjects = () => {
-  document.getElementById('projectsPage').scrollTo();
-  document.getElementById('projectsPage').style.display = 'block';
-  document.getElementById('technologiesPage').style.display = 'none';
+  document.getElementById('projectsPage').scrollIntoView();
+  document.getElementById('projectsPage').style.display = 'flex';
+  document.getElementById('clipsPage').style.display = 'none';
   document.getElementById('bioPage').style.display = 'none';
 };
 
 const navEvents = () => {
-  document.getElementById('home').addEventListener('click', homePage);
+  document.getElementById('name').addEventListener('click', homePage);
   document.getElementById('navToBio').addEventListener('click', onlyBio);
-  document.getElementById('navToTechnologies').addEventListener('click', onlyTechno);
+  document.getElementById('navToClips').addEventListener('click', onlyClips);
   document.getElementById('navToProjects').addEventListener('click', onlyProjects);
 };
 
 const init = () => {
+  navEvents();
   projectsData.getProjects()
     .then((resp) => {
       createProjectCards(resp);
-      navEvents();
     })
     .catch(err => console.error('error from initTypes', err));
 };
