@@ -13,9 +13,9 @@ const createProjectCards = (projects) => {
   for (let i = 0; i < projects.length; i += 1) {
     // domString += '<div class="projects">';
     domString += '<div class="col-12 col-md-6 col-lg-4">';
-    domString += '<div class="card d col-flex">';
+    domString += '<div class="card d col-flex h-100">';
     domString += `<div class="card-header"><strong>${projects[i].Name}</strong></div>`;
-    domString += `<div class="image"><img src=${projects[i].imageUrl} alt="project picture"></div>`;
+    domString += `<div class="card-img-top"><img src=${projects[i].imageUrl} alt="project picture"></div>`;
     domString += '<div class="card-body">';
     domString += `<div><strong>Description:</strong> ${projects[i].description}</div>`;
     domString += '<ul class="list-group list-group-flush">';
