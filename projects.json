@@ -2,7 +2,7 @@
   "projects": [
     {
     "Name": "Barbarian Streisand Brewery",
-    "imageUrl": "https://barbarian-streisand.firebaseapp.com/barb-photos/jumbotron-photo.jpg",
+    "imageUrl": "https://barbarian-streisand.firebaseapp.com/barb-photos/age-verification-photo.jpg",
     "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
     "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
     "description": "Basically the intersection of Barbra Streisand and beer. A group project to make a beer brewery website. I worked on the 'Book a Tour' page, wrote all copy and assisted with styling",
@@ -19,13 +19,13 @@
     "Author(s)": "Sarah Weatherbee"
   },
   {
-    "Name": "Barbarian Streisand beer site",
-    "imageUrl": "./project-shots/barb-site-shot",
-    "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
-    "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
-    "description": "Basically the intersection of Barbra Streisand and beer. A group project to make a beer brewery website.",
+    "Name": "Sandwich maker",
+    "imageUrl": "https://www.svgrepo.com/show/130367/sandwich.svg",
+    "githubUrl": "https://github.com/sarah-weatherbee/sandwich-maker",
+    "deployUrl": "https://sandwich-maker-badc3.firebaseapp.com/",
+    "description": "You could go to Burger King and have it your way, or you could make a sandwich with this trusty little sandwich maker.",
     "Technologies": "HTML, CSS, JavaScript",
-    "Author(s)": "Sarah Weatherbee, Matt Gill, Andrew Tiller, Lwam Tekie"
+    "Author(s)": "Sarah Weatherbee"
   }
   ]
 }

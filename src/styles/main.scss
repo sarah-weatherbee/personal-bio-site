@@ -73,9 +73,10 @@ ul{
     text-align: center;
 
 }
-    #navLinks li:hover{
-        background-color: limegreen;
+    #navLinks li:hover {
+        text-decoration: underline;
     }
+
 
 .page-footer {
     position: relative;
@@ -92,7 +93,7 @@ ul{
 
 }
     #footer-links li:hover{
-        background-color: limegreen;
+        text-decoration: underline;
     }
     .project-info-text{
         font-size: 14px;
@@ -114,12 +115,13 @@ img {
 	font-weight: 300;
     display: inline-block;
     margin-left: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+    margin-top: 3%
 }
-a:hover{
+#name:hover{
+    text-decoration: underline;
+}
 
-    background-color: limegreen;
-}
 
 .container {
 	max-width: 1100px;
@@ -164,3 +166,7 @@ a:hover{
     margin-top: 70px;
 }
 
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
