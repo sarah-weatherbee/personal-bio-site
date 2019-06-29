@@ -9,7 +9,7 @@ const printToDom = (divId, textToPrint) => {
 };
 
 const createProjectCards = (projects) => {
-  let domString = '';
+  let domString = '<div class="fullPage" id="development-text"><h4><strong>Development</strong></h4></div>';
   for (let i = 0; i < projects.length; i += 1) {
     // domString += '<div class="projects">';
     domString += '<div class="col-12 col-md-6 col-lg-4">';
@@ -40,23 +40,23 @@ const homePage = () => {
 
 const onlyBio = () => {
   document.getElementById('bioPage').scrollIntoView();
-  document.getElementById('bioPage').style.display = 'block';
-  document.getElementById('clipsPage').style.display = 'none';
-  document.getElementById('projectsPage').style.display = 'none';
+  // document.getElementById('bioPage').style.display = 'block';
+  // document.getElementById('clipsPage').style.display = 'none';
+  // document.getElementById('projectsPage').style.display = 'none';
 };
 
 const onlyClips = () => {
   document.getElementById('clipsPage').scrollIntoView();
-  document.getElementById('clipsPage').style.display = 'block';
-  document.getElementById('bioPage').style.display = 'none';
-  document.getElementById('projectsPage').style.display = 'none';
+  // document.getElementById('clipsPage').style.display = 'block';
+  // document.getElementById('bioPage').style.display = 'none';
+  // document.getElementById('projectsPage').style.display = 'none';
 };
 
 const onlyProjects = () => {
   document.getElementById('projectsPage').scrollIntoView();
-  document.getElementById('projectsPage').style.display = 'flex';
-  document.getElementById('clipsPage').style.display = 'none';
-  document.getElementById('bioPage').style.display = 'none';
+  // document.getElementById('projectsPage').style.display = 'flex';
+  // document.getElementById('clipsPage').style.display = 'none';
+  // document.getElementById('bioPage').style.display = 'none';
 };
 
 const navEvents = () => {
