@@ -1,5 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
+
+
 body {
     background-color: #f9f8fd;
     Font-Family: 'Raleway', Sans-Serif;
@@ -23,12 +25,6 @@ body {
 
 }
 
-
-// .card-container {
-//     display: flex;
-//     flex-wrap: wrap;
-//     /*margin: 5px 0 5px 0; */
-// }
 #projectsPage{
     width: 100%;
     display: flex;
@@ -147,8 +143,7 @@ img {
 }
 
 .techs{
-    width: 70px;
-    margin: 20px 0px 0px 20px;
+    align-items: center;
 }
 .new-grid-item p{
     text-align: center;
@@ -161,10 +156,6 @@ img {
     margin-top: 25px;
 }
 
-.tech-icons {
-    margin-left: 85px;
-    margin-top: 70px;
-}
 
 .card-img-top {
     width: 100%;

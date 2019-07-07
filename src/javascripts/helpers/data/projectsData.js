@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const getProjects = () => new Promise((resolve, reject) => {
-  axios.get('https://personal-bio-site-a40da.firebaseio.com/projects.json')
+  axios.get('https://personal-bio-site-a40da.firebaseio.com/projects/projects.json')
     .then((results) => {
       const projectResults = results.data;
       const projects = [];
