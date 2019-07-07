@@ -2,10 +2,8 @@
 Displays personal bio site. 
 Uses HTML, CSS and JavaScript.
 
-## Screenshots
-![image of personal bio site](https://raw.githubusercontent.com/sarah-weatherbee/personal-bio-site/master/screenshots/shot_1.png)
-
-![image of personal bio site](https://raw.githubusercontent.com/sarah-weatherbee/personal-bio-site/master/screenshots/shot_2.png)
+## Deployed site
+https://personal-bio-site-a40da.firebaseapp.com/
 
 ## Getting Started
 ```
