@@ -11,8 +11,7 @@ const printToDom = (divId, textToPrint) => {
 const createProjectCards = (projects) => {
   let domString = '<div class="fullPage" id="development-text"><h4><strong>Development</strong></h4></div>';
   for (let i = 0; i < projects.length; i += 1) {
-    // domString += '<div class="projects">';
-    domString += '<div class="col-12 col-md-6 col-lg-4">';
+    domString += '<div class="col-12 col-md-6 col-lg-3 mb-5">';
     domString += '<div class="card d col-flex h-100">';
     domString += `<div class="card-header"><strong>${projects[i].Name}</strong></div>`;
     domString += `<div class="card-img-top"><img src=${projects[i].imageUrl} alt="project picture"></div>`;
@@ -26,7 +25,6 @@ const createProjectCards = (projects) => {
     domString += '</div>';
     domString += '</div>';
     domString += '</div>';
-    // domString += '</div>';
   }
 
   printToDom('projectsPage', domString);

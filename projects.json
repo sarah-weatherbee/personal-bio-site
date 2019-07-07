@@ -26,6 +26,24 @@
     "description": "You could go to Burger King and have it your way, or you could make a sandwich with this trusty little sandwich maker.",
     "Technologies": "HTML, CSS, JavaScript",
     "Author(s)": "Sarah Weatherbee"
+  },
+  {
+    "Name": "Fish Store",
+    "imageUrl": "https://cdn3.vectorstock.com/i/1000x1000/01/12/cartoon-seafood-shop-a-small-cute-fish-market-vector-18620112.jpg",
+    "githubUrl": "https://github.com/sarah-weatherbee/fish-store",
+    "deployUrl": "https://sandwich-maker-badc3.firebaseapp.com/",
+    "description": "All the fish that's fit to eat.",
+    "Technologies": "HTML, CSS, JavaScript",
+    "Author(s)": "Sarah Weatherbee"
+  },
+  {
+    "Name": "Capstone",
+    "imageUrl": "https://cdn3.vectorstock.com/i/1000x1000/01/12/cartoon-seafood-shop-a-small-cute-fish-market-vector-18620112.jpg",
+    "githubUrl": "https://github.com/sarah-weatherbee/fish-store",
+    "deployUrl": "https://sandwich-maker-badc3.firebaseapp.com/",
+    "description": "All the fish that's fit to eat.",
+    "Technologies": "HTML, CSS, JavaScript",
+    "Author(s)": "Sarah Weatherbee"
   }
   ]
 }
