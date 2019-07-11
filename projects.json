@@ -29,7 +29,7 @@
   },
   {
     "Name": "Fish Store",
-    "imageUrl": "https://fish-store-d940b.firebaseapp.com/static/media/salmon.a100f177.jpg",
+    "imageUrl": "http://vudfiull.info/wp-content/uploads/2019/02/fish-outline-drawing-simple-fish-outline-template-drawing-easy-ideas-diagram-fish-drawing-outline-cartoon.jpg",
     "githubUrl": "https://github.com/sarah-weatherbee/fish-store",
     "deployUrl": "https://fish-store-d940b.firebaseapp.com/",
     "description": "All the fish that's fit to CRUD. Make an order of fish; update and delete order, too.",
@@ -41,7 +41,7 @@
     "imageUrl": "https://ecobrooklyn.com/wp-content/uploads/2009/08/swirrel.jpg",
     "githubUrl": "https://github.com/sarah-weatherbee/squirrely-day-care",
     "deployUrl": "https://squirrely-day-care.firebaseapp.com/",
-    "description": "There's something squirrely about this daycare. The trees are in charge. You can schedule, update and delete a hug event",
+    "description": "There's something squirrely about this daycare. The trees are in charge. You can schedule, update and delete a hug event.",
     "Technologies": "HTML, CSS, JavaScript, React",
     "Author(s)": "Sarah Weatherbee"
   },

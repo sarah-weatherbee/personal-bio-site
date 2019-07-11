@@ -9,10 +9,11 @@ const printToDom = (divId, textToPrint) => {
 };
 
 const createProjectCards = (projects) => {
-  let domString = '<div class="fullPage" id="development-text"><h4><strong>Development</strong></h4></div>';
+  let domString = '<div class="lead"><h3 class="lead">Development</h3></div>';
+  domString += '<div class="newRow">';
   for (let i = 0; i < projects.length; i += 1) {
-    domString += '<div class="col-12 col-md-6 col-lg-3 mb-5">';
-    domString += '<div class="card d col-flex h-100">';
+    domString += '<div class="col-12 col-md-6 col-lg-4 p-4">';
+    domString += '<div class="card d-flex h-100">';
     domString += `<div class="card-header"><strong>${projects[i].Name}</strong></div>`;
     domString += `<div class="card-img-top"><img src=${projects[i].imageUrl} alt="project picture"></div>`;
     domString += '<div class="card-body">';
@@ -26,7 +27,7 @@ const createProjectCards = (projects) => {
     domString += '</div>';
     domString += '</div>';
   }
-
+  domString += '</div>';
   printToDom('projectsPage', domString);
 };
 
@@ -38,30 +39,26 @@ const homePage = () => {
 
 const onlyBio = () => {
   document.getElementById('bioPage').scrollIntoView();
-  // document.getElementById('bioPage').style.display = 'block';
-  // document.getElementById('clipsPage').style.display = 'none';
-  // document.getElementById('projectsPage').style.display = 'none';
 };
 
-const onlyClips = () => {
-  document.getElementById('clipsPage').scrollIntoView();
-  // document.getElementById('clipsPage').style.display = 'block';
-  // document.getElementById('bioPage').style.display = 'none';
-  // document.getElementById('projectsPage').style.display = 'none';
-};
+// const onlyClips = () => {
+//   document.getElementById('clipsPage').scrollIntoView();
+// };
 
 const onlyProjects = () => {
   document.getElementById('projectsPage').scrollIntoView();
-  // document.getElementById('projectsPage').style.display = 'flex';
-  // document.getElementById('clipsPage').style.display = 'none';
-  // document.getElementById('bioPage').style.display = 'none';
+};
+
+const onlyTechs = () => {
+  document.getElementById('technologiesPage').scrollIntoView();
 };
 
 const navEvents = () => {
   document.getElementById('name').addEventListener('click', homePage);
   document.getElementById('navToBio').addEventListener('click', onlyBio);
-  document.getElementById('navToClips').addEventListener('click', onlyClips);
+  // document.getElementById('navToClips').addEventListener('click', onlyClips);
   document.getElementById('navToProjects').addEventListener('click', onlyProjects);
+  document.getElementById('navToTechs').addEventListener('click', onlyTechs);
 };
 
 const init = () => {

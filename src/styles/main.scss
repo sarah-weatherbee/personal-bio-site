@@ -19,15 +19,14 @@ body {
 .fullPage {
     max-width: 90%;
     width: 100%;
-    margin-left: 90px;
-    margin-right: 90px;
+    // margin-right: 90px;
     padding: 8px;
 
 }
 
 #projectsPage{
-    width: 100%;
-    display: flex;
+    // width: 100%;
+    // display: flex;
 }
 
 .projects {
@@ -60,17 +59,21 @@ ul{
     margin-left: auto;
 }
 #navLinks li{
-    /* display: flex; */
-    display:inline;
-    width: 85px;
+    //  display: flex;
+    // display:inline;
+    // width: 85px;
     /* display:inline; */
 
     margin: 15px;
     text-align: center;
+    transition: all .2s ease-in-out;
 
+    &:hover {
+        transform:scale(1.2);
+    }
 }
     #navLinks li:hover {
-        text-decoration: underline;
+
     }
 
 
@@ -95,12 +98,18 @@ ul{
         font-size: 14px;
     }
 #projectsPage {
-    display: flex;
-    /*background-color: purple;*/
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    display:flex;
+}
+#projectsPage h3 {
+    // text-align: left !important;
 }
 
+.newRow{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -114,19 +123,26 @@ img {
     margin-bottom: 5%;
     margin-top: 3%
 }
-#name:hover{
-    text-decoration: underline;
-}
+// #name {
+//     transition: all .2s ease-in-out;
+
+//     &:hover {
+//         transform:scale(1.5);
+//     }
+// }
+// #name:hover{
+//     text-decoration: underline;
+// }
 
 
 .container {
-	max-width: 1100px;
+	// max-width: 1100px;
 	height: auto;
-	margin: 60px;
+	// margin-left: 60px;
 }
 
 .hero {
-	margin-bottom: 120px;
+	margin-bottom: 160px;
 	// position: relative;
 }
 
@@ -134,8 +150,12 @@ img {
 	font-size: 40px;
 	font-weight: 300;
     margin-top: 60px;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 	line-height: 55px;
+}
+
+.head{
+    margin-top: 120px;
 }
 
 .card {
@@ -154,6 +174,8 @@ img {
 .about-me-text{
     margin-bottom: 70px;
     margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
