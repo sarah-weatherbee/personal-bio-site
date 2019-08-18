@@ -15,12 +15,12 @@ const createProjectCards = (projects) => {
     domString += '<div class="col-12 col-md-6 col-lg-4 p-4">';
     domString += '<div class="card d-flex h-100">';
     domString += `<div class="card-header"><strong>${projects[i].Name}</strong></div>`;
-    domString += `<div class="card-img-top"><img src=${projects[i].imageUrl} alt="project picture"></div>`;
+    domString += `<div class="card-img-top"><img class="image" src=${projects[i].imageUrl} alt="project picture"></div>`;
     domString += '<div class="card-body">';
-    domString += `<div><strong>Description:</strong> ${projects[i].description}</div>`;
-    domString += '<ul class="list-group list-group-flush">';
-    domString += `<li class="list-group-item">${projects[i].Technologies}</li>`;
-    domString += `<li class="list-group-item">Site: <a href=${projects[i].deployUrl}>Here</a></li>`;
+    domString += `<div>${projects[i].description}</div>`;
+    domString += '<ul class="list-group">';
+    domString += `<li class="list-group-item"><strong>Technologies: </strong>${projects[i].Technologies}</li>`;
+    domString += `<li class="list-group-item">Site: <a href=${projects[i].deployUrl}>Here</i></a></li>`;
     domString += `<li class="list-group-item">GitHub: <a href=${projects[i].githubUrl}>Here</a></li>`;
     domString += '</ul>';
     domString += '</div>';

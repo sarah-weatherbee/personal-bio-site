@@ -2,7 +2,7 @@
   "projects": [
     {
     "Name": "Barbarian Streisand Brewery",
-    "imageUrl": "https://barbarian-streisand.firebaseapp.com/barb-photos/age-verification-photo.jpg",
+    "imageUrl": "https://user-images.githubusercontent.com/47487494/63226628-b7db2a80-c1a1-11e9-9bcd-f1c98daca30d.jpg",
     "githubUrl": "https://github.com/sarah-weatherbee/my-barbarian-streisand",
     "deployUrl": "https://barbarian-streisand.firebaseapp.com/",
     "description": "Basically the intersection of Barbra Streisand and beer. A group project to make a beer brewery website. I worked on the 'Book a Tour' page, wrote all copy and assisted with styling",
