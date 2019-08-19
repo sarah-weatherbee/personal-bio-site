@@ -41,17 +41,17 @@
     "imageUrl": "https://ecobrooklyn.com/wp-content/uploads/2009/08/swirrel.jpg",
     "githubUrl": "https://github.com/sarah-weatherbee/squirrely-day-care",
     "deployUrl": "https://squirrely-day-care.firebaseapp.com/",
-    "description": "There's something squirrely about this daycare. The trees are in charge. You can schedule, update and delete a hug event.",
+    "description": "There's something squirrely about this daycare. The trees are in charge; full-CRUD functionality to schedule, update and delete a hug event.",
     "Technologies": "HTML, CSS, JavaScript, React",
     "Author(s)": "Sarah Weatherbee"
   },
   {
-    "Name": "Capstone",
-    "imageUrl": "https://cdn3.vectorstock.com/i/1000x1000/01/12/cartoon-seafood-shop-a-small-cute-fish-market-vector-18620112.jpg",
-    "githubUrl": "https://github.com/sarah-weatherbee/fish-store",
-    "deployUrl": "https://sandwich-maker-badc3.firebaseapp.com/",
-    "description": "All the fish that's fit to eat.",
-    "Technologies": "HTML, CSS, JavaScript",
+    "Name": "Music Row: A space erased",
+    "imageUrl": "https://user-images.githubusercontent.com/47487494/62839248-3fc6af00-bc4d-11e9-8cc4-0f55f2eef8ca.png",
+    "githubUrl": "https://github.com/sarah-weatherbee/capstone-music-row",
+    "deployUrl": "https://capstone-music-row.firebaseapp.com/",
+    "description": "A full-CRUD single-page application to visualize data of buildings demolished on music row between 2013 and 2018.",
+    "Technologies": "HTML, CSS, JavaScript, React",
     "Author(s)": "Sarah Weatherbee"
   }
   ]
