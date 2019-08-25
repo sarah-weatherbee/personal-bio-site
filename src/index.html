@@ -3,31 +3,52 @@
 
 <head>
     <title>Sarah Weatherbee</title>
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
 
         <!--Navigation-->
         <header>
-        <nav>
-            <h1><a id="name">Sarah Weatherbee</a></h1>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="flex-grow-1 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a id="navToBio" class="nav-link">about</a>
+                        </li>
+                        <li class="nav-item">
+                        <a id="navToTechs" class="nav-link">technologies</a>
+                        </li>
+                        <li class="nav-item">
+                        <a id="navToProjects" class="nav-link">development</a>
+                        </li>
+                        <li class="nav-item">
+                        <a id="navToClips" class="nav-link">journalism</a>
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+                </nav>
 
-            <ul class="nav justify-content-end mr-5" id="navLinks">
+            <!-- <ul class="nav justify-content-end mr-5" id="navLinks">
                 <li><a id="navToTechs">technologies</a></li>
                 <li><a id="navToBio">about</a></li>
                 <li><a id="navToProjects">development</a></li>
-                <!-- <li><a id="navToClips">clips</a></li> -->
-            </ul>
+                <li><a id="navToClips">clips</a></li>
+            </ul> -->
 
-        </nav>
+
+        <h1><a id="name">Sarah Weatherbee</a></h1>
         </header>
         <!-- End Navigation -->
 
@@ -95,15 +116,8 @@
             </div>
             </div>
             <div class="fullPage container" id="projectsPage"></div>
-            <!-- <div class="fullPage" id="clipsPage">
+            <div class="fullPage container" id="clipsPage"></div>
 
-                <h4><strong>Journalism</strong></h4>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-            </div> -->
             <div class="fullPage container" id="bioPage">
                 <h3 class="lead">About Me</h3>
                 <p class="about-me-text">Hi, I'm Sarah. My journey to software development began in a Beirut newsroom. When I was a journalist, I realized I wanted to tell stories in new ways, but I didn't quite know how I'd get there. I wrote about food safety and Syrian refugees and hepatitis and everything in between, but I wanted to do more than just write and I knew that stories can be more than just written. My love of interactive news apps led me to Nashville Software School, where I plan to combine front-end development with data analysis.</p>
@@ -112,8 +126,7 @@
         </div>
         <!-- End Primary View -->
         <!-- Footer -->
-        <footer class="page-footer">
-                <!--TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+        <footer class="page-footer text-center">
                 <ul id="footer-links">
                     <li><a href="mailto:sarahmweatherbee@gmail.com" target="_top" id="email">Email</a></li>
                     <li><a href="https://www.linkedin.com/in/sarah-weatherbee-a518556/" target="_blank" id="LinkedIn">LinkedIn</a></li>

@@ -24,11 +24,6 @@ body {
 
 }
 
-#projectsPage{
-    // width: 100%;
-    // display: flex;
-}
-
 .projects {
 
     max-width: 100%;
@@ -37,11 +32,18 @@ body {
     padding: 5px;
     border: 1px solid black;
     background-color: blanchedalmond;
-
-
 }
-nav {
+
+nav.navbar.bg-light {
     display: flex;
+    background-color: #f8ecf6 !important;
+    padding: 0;
+}
+
+.nav-item:hover { background-color: #f2d9ed; }
+
+.nav-item {
+    padding: 4px 10px;
 }
 
 header{
@@ -70,20 +72,15 @@ ul{
         transform:scale(1.2);
     }
 }
-    #navLinks li:hover {
-
-    }
 
 
 .page-footer {
     position: relative;
     align-items: center;
-    margin-left: 480px;
 }
 
 #footer-links li{
     display:inline;
-    width:85px;
     margin:0 10px;
     Font-Family: 'Raleway', Sans-Serif;
     Font-Size: 16px;
@@ -99,9 +96,7 @@ ul{
     flex-wrap: wrap;
     display:flex;
 }
-#projectsPage h3 {
-    // text-align: left !important;
-}
+
 
 .newRow{
     display:flex;
@@ -119,7 +114,8 @@ img {
     display: inline-block;
     margin-left: 80px;
     margin-bottom: 5%;
-    margin-top: 3%
+    margin-top: 3%;
+    color: #bf4aa8
 }
 // #name {
 //     transition: all .2s ease-in-out;
@@ -180,5 +176,6 @@ img {
 
 .image {
     width: 100%;
+    max-height: 250px;
     object-fit: cover;
 }
