@@ -10,7 +10,7 @@ const printToDom = (divId, textToPrint) => {
 };
 
 const createProjectCards = (projects) => {
-  let domString = '<div class="lead"><h3 class="lead">Development</h3></div>';
+  let domString = '<h3 class="subhead">Development</h3>';
   domString += '<div class="newRow">';
   for (let i = 0; i < projects.length; i += 1) {
     domString += '<div class="col-12 col-md-6 col-lg-5 p-4">';
@@ -33,7 +33,7 @@ const createProjectCards = (projects) => {
 };
 
 const createClipCards = (clips) => {
-  let domString = '<div class="lead"><h3 class="lead">Journalism</h3></div>';
+  let domString = '<h3 class="subhead">Journalism</h3>';
   domString += '<div class="newRow">';
   for (let j = 0; j < clips.length; j += 1) {
     domString += '<div class="col-12 col-md-6 col-lg-5 p-4">';
@@ -41,9 +41,9 @@ const createClipCards = (clips) => {
     domString += `<div class="card-img-top"><img class="image" src=${clips[j].imageUrl} alt="project picture"></div>`;
     domString += `<div class="card-header"><strong>${clips[j].title}</strong></div>`;
     domString += '<div class="card-body">';
-    domString += `<div class=mb-2><a href=${clips[j].storyUrl} target="_blank">${clips[j].publication}</a></div>`;
+    domString += `<div class=" story-link mb-2"><a href=${clips[j].storyUrl} target="_blank">${clips[j].publication}</a></div>`;
     domString += `<div>${clips[j].leadText}</div>`;
-    domString += `<div class=mt-2><a href=${clips[j].pdfUrl} target="_blank">Download PDF of full story</i></a></div>`;
+    domString += `<div class="mt-2"><a href=${clips[j].pdfUrl} target="_blank">Download PDF of full story</i></a></div>`;
     domString += '</div>';
     domString += '</div>';
     domString += '</div>';
