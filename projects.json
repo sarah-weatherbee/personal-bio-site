@@ -46,12 +46,21 @@
     "Author(s)": "Sarah Weatherbee"
   },
   {
-    "Name": "Music Row: A space erased",
+    "Name": "Music Row: A Space Erased",
     "imageUrl": "https://user-images.githubusercontent.com/47487494/62839248-3fc6af00-bc4d-11e9-8cc4-0f55f2eef8ca.png",
     "githubUrl": "https://github.com/sarah-weatherbee/capstone-music-row",
     "deployUrl": "https://capstone-music-row.firebaseapp.com/",
     "description": "A full-CRUD single-page application to visualize data of buildings demolished on music row between 2013 and 2018.",
     "Technologies": "HTML, CSS, JavaScript, React",
+    "Author(s)": "Sarah Weatherbee"
+  },
+  {
+    "Name": "Nashville Scooter Mapping",
+    "imageUrl": "https://user-images.githubusercontent.com/47487494/65833813-eddbf600-e299-11e9-9ee9-687ef7463aeb.png",
+    "githubUrl": "https://github.com/sarah-weatherbee/scooter-analysis/blob/master/sw_scooters_trips.ipynb",
+    "deployUrl": "https://sarah-weatherbee.github.io/scooter-analysis/",
+    "description": "Mapping of scooter use in Nashville; comparison of scooter trips on holidays and non-holidays.",
+    "Technologies": "Python, Pandas, Geopandas, Matplotlib",
     "Author(s)": "Sarah Weatherbee"
   }
   ]
